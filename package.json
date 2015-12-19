@@ -1,0 +1,17 @@
+{
+	"name": "theme-tesla",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": ">=0.9.0-pre.1"
+	},
+	"publisher": "none",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Tesla",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Tesla.tmTheme"
+			}
+		]
+	}
+}

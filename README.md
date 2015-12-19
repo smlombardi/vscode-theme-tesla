@@ -6,13 +6,13 @@ Origially created for Atom, this is a relaxing but colorful dark syntax color fo
 Optimized for front-end development, SCSS, CSS, HTML, PHP, and JS
 
 ##HTML
-![](https://raw.githubusercontent.com/smlombardi/tesla-atom/master/images/html.png)
+![](https://raw.githubusercontent.com/smlombardi/vscode-theme-tesla/master/images/html.png)
 
 
 ##SCSS
-![](https://raw.githubusercontent.com/smlombardi/tesla-atom/master/images/scss.png)
+![](https://raw.githubusercontent.com/smlombardi/vscode-theme-tesla/master/images/scss.png)
 
 ##JS
-![](https://raw.githubusercontent.com/smlombardi/tesla-atom/master/images/js.png)
+![](https://raw.githubusercontent.com/smlombardi/vscode-theme-tesla/master/images/js.png)
 
-Font in the images is [Monoid](https://larsenwork.com/monoid/)
+

@@ -430,7 +430,7 @@
 			<key>name</key>
 			<string>PHP delimiters</string>
 			<key>scope</key>
-			<string>punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php</string>
+			<string>punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php, token metatag php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

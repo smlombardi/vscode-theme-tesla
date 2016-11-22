@@ -1,18 +1,22 @@
+
 theme-tesla
 ==========
 
 Origially created for Atom, this is a relaxing but colorful dark syntax color for Microsoft VSCode.
 
-Optimized for front-end development, SCSS, CSS, HTML, PHP, and JS
+Optimized for front-end development, SCSS, CSS, HTML, PHP,  JS, and JSON
+
+##JS
+![](https://raw.githubusercontent.com/smlombardi/vscode-theme-tesla/master/images/js.png)
+
+##JSON
+![](https://raw.githubusercontent.com/smlombardi/vscode-theme-tesla/master/images/json.png)
 
 ##HTML
 ![](https://raw.githubusercontent.com/smlombardi/vscode-theme-tesla/master/images/html.png)
 
-
 ##SCSS
 ![](https://raw.githubusercontent.com/smlombardi/vscode-theme-tesla/master/images/scss.png)
 
-##JS
-![](https://raw.githubusercontent.com/smlombardi/vscode-theme-tesla/master/images/js.png)
 
 

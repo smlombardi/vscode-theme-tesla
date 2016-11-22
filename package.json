@@ -1,27 +1,27 @@
 {
-	"name": "theme-tesla",
-	"version": "0.1.0",
-  "publisher": "smlombardi",
-	"displayName": "Tesla Syntax Theme",
-	"description": "A soft, colorful, but professional original syntax theme",
-	"engines": {
-		"vscode": ">=0.9.0-pre.1"
-	},
-	"repository": {
-    "type": "git",
-    "url": "https://github.com/smlombardi/vscode-theme-tesla.git"
-  },
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"contributes": {
-		"themes": [
-			{
-				"label": "Tesla",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Tesla.tmTheme"
-			}
-		]
-	}
+    "name": "theme-tesla",
+    "version": "4.0.0",
+    "publisher": "smlombardi",
+    "displayName": "Tesla Syntax Theme",
+    "description": "A soft, colorful, but professional original syntax theme",
+    "engines": {
+        "vscode": ">=0.9.0-pre.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/smlombardi/vscode-theme-tesla.git"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "icon.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Tesla",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Tesla.tmTheme"
+            }
+        ]
+    }
 }

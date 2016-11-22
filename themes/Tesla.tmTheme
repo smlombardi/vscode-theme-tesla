@@ -33,7 +33,7 @@
 				<key>caret</key>
 				<string>#a7e150</string>
 				<key>foreground</key>
-				<string>#eeeeee</string>
+				<string>#D0D0D0</string>
 				<key>invisibles</key>
 				<string>#3B3A32</string>
 				<key>lineHighlight</key>
@@ -200,7 +200,7 @@
 			<key>name</key>
 			<string>Punctuation</string>
 			<key>scope</key>
-			<string>punctuation.definition.string, punctuation.terminator.rule, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array, punctuation.separator.key-value, support.constant.mathematical-symbols.scss, support.constant.mathematical-symbols.css, punctuation.section.function</string>
+			<string>punctuation.definition.string, punctuation.terminator.rule, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array, punctuation.separator.key-value, support.constant.mathematical-symbols.scss, support.constant.mathematical-symbols.css, punctuation.section.function,meta.tag.block.any.html.punctuation.definition.begin.string.quoted.double,meta.tag.block.any.html.punctuation.definition.end.string.quoted.double,meta.tag.any.html.punctuation.definition.begin.string.quoted.double.inline,meta.tag.any.html.punctuation.definition.end.string.quoted.double.inline,meta.tag.any.html.punctuation.definition.begin.string.quoted double,meta.tag.any.html.punctuation.definition.end.string.quoted double</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -363,18 +363,29 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#C7AF3F</string>
+				<string>#c89e6e</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Attributes</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name</string>
+			<string>meta.tag.any.html.entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#8AB8A2</string>
+				<string>#9D9A61</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Attribute Values</string>
+			<key>scope</key>
+			<string>meta.tag.any.html.string.quoted.double</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BDC6D4</string>
 			</dict>
 		</dict>
 		<dict>
@@ -394,7 +405,7 @@
 			<key>name</key>
 			<string>Selector</string>
 			<key>scope</key>
-			<string>meta.selector</string>
+			<string>meta.selector, entity.other.attribute-name.class.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -409,7 +420,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#c0c0c0</string>
+				<string>#9D9B74</string>
 			</dict>
 		</dict>
 		<dict>
@@ -510,7 +521,7 @@
 			<key>name</key>
 			<string>SCSS Pseudo</string>
 			<key>scope</key>
-			<string>meta.scss.entity.property-list.other.attribute-name.pseudo-element.css</string>
+			<string>entity.property-list.other.attribute-name.pseudo-element.css,entity.other.attribute-name.property-list.css.pseudo-class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

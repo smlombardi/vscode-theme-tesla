@@ -434,15 +434,37 @@
 				<string>#a4b3ca</string>
 			</dict>
 		</dict>
+        <dict>
+            <key>name</key>
+            <string>CSS Numbers</string>
+            <key>scope</key>
+            <string>meta.at-rule.constant.numeric.media, meta.property-list.property-value.constant.numeric</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#d0c29d</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>CSS colors</string>
+            <key>scope</key>
+            <string>support.constant.named-color, meta.property-value constant, keyword.other.unit, constant.other.color.rgb-value, constant.other.rgb-value.css, constant.other.color</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#a4b3ca</string>
+            </dict>
+        </dict>
 		<dict>
 			<key>name</key>
-			<string>CSS colors, units</string>
+			<string>CSS units</string>
 			<key>scope</key>
-			<string>support.constant.named-color, meta.property-value constant, keyword.other.unit, constant.other.color.rgb-value, constant.other.rgb-value.css, constant.other.color</string>
+			<string>meta.keyword.other.property-list.property-value.unit, meta.at-rule.keyword.other.unit.media</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#a4b3ca</string>
+				<string>#627FAC</string>
 			</dict>
 		</dict>
 
@@ -506,15 +528,26 @@
 			</dict>
 		</dict>
 
+        <dict>
+            <key>name</key>
+            <string>CSS @media</string>
+            <key>scope</key>
+            <string>meta.at-rule.media.scss, meta.property-list.scss meta.at-rule.media.scss,scss.meta.at-rule.keyword.control.media</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#CD9D4B</string>
+            </dict>
+        </dict>
 		<dict>
 			<key>name</key>
-			<string>CSS @media</string>
+			<string>CSS @media attribute</string>
 			<key>scope</key>
-			<string>meta.at-rule.media.scss, meta.property-list.scss meta.at-rule.media.scss,scss.meta.at-rule.keyword.control.media</string>
+			<string>meta.at-rule.css.property-name.support.type.media</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#CD9D4B</string>
+				<string>#9d9b74</string>
 			</dict>
 		</dict>
 		<dict>

@@ -6,7 +6,12 @@ Origially created for Atom, this is a relaxing but colorful dark syntax color fo
 
 Optimized for front-end development, SCSS, CSS, HTML, PHP,  JS, and JSON
 
-##JS
+Update 5.0:  Added Typescript support
+
+##TypeScript
+![](https://raw.githubusercontent.com/smlombardi/vscode-theme-tesla/master/images/ts.png)
+
+##Javascript
 ![](https://raw.githubusercontent.com/smlombardi/vscode-theme-tesla/master/images/js.png)
 
 ##JSON

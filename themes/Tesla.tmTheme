@@ -84,6 +84,8 @@
 			<dict>
 				<key>foreground</key>
 				<string>#777777</string>
+				<key>fontStyle</key>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -267,6 +269,88 @@
 			</dict>
 		</dict>
 
+		<!-- JS -->
+		<dict>
+			<key>name</key>
+			<string>_this</string>
+			<key>scope</key>
+			<string>meta.js.function.block.variable.other.object</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#969469</string>
+			</dict>
+		</dict>		
+		<dict>
+			<key>name</key>
+			<string>_this</string>
+			<key>scope</key>
+			<string>meta.js.function.block.variable.other.var.expr.var-single-variable.readwrite</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#969469</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variable Object Property</string>
+			<key>scope</key>
+			<string>meta.js.function.block.variable.other.object.property</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C09F6F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variable Object Property</string>
+			<key>scope</key>
+			<string>meta.js.function.block.object.objectliteral.member.object-literal.key.array.literal,meta.js.function.block.object.var.expr.objectliteral.member.object-literal.key,meta.js.function.block.object.objectliteral.member.object-literal.key
+			</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#AA95B7</string>
+			</dict>
+		</dict>
+
+		<!-- JSON -->
+		<dict>
+			<key>name</key>
+			<string>Property Name</string>
+			<key>scope</key>
+			<string>meta.structure.array.json.dictionary.support.type.property-name, meta.block.js.string.quoted.double.array.literal.objectliteral.object.member.object-literal.key</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#AA95B7</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Property Value</string>
+			<key>scope</key>
+			<string>meta.structure.array.json.dictionary.value.string.quoted.double</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d0c29d</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Property Constant</string>
+			<key>scope</key>
+			<string>meta.structure.array.json.dictionary.value.constant.language</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#bf7a75</string>
+			</dict>
+		</dict>
+
 
 
 
@@ -325,7 +409,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#b48ead</string>
+				<string>#c0c0c0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -355,7 +439,7 @@
 			<key>name</key>
 			<string>CSS/Sass constructor</string>
 			<key>scope</key>
-			<string>meta.constructor.argument.css, ,meta.constructor.argument.sass</string>
+			<string>meta.constructor.argument.css,meta.constructor.argument.sass</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -419,7 +503,41 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B57B91</string>
+				<string>#ae5555</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SCSS Pseudo</string>
+			<key>scope</key>
+			<string>meta.scss.entity.property-list.other.attribute-name.pseudo-element.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ae5555</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SCSS Attribute selector</string>
+			<key>scope</key>
+			<string>meta.scss.entity.property-list.other.attribute-name.attribute-selector.attribute</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#AE6A6A</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>SCSS Function</string>
+			<key>scope</key>
+			<string>meta.scss.function.property-list.support.property-value.misc</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D29469</string>
 			</dict>
 		</dict>
 
@@ -430,7 +548,7 @@
 			<key>name</key>
 			<string>PHP delimiters</string>
 			<key>scope</key>
-			<string>punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php, token metatag php</string>
+			<string>punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

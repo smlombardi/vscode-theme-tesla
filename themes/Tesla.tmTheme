@@ -79,7 +79,7 @@
 			<key>name</key>
 			<string>Comments</string>
 			<key>scope</key>
-			<string>comment, punctuation.definition.comment</string>
+			<string>comment, punctuation.definition.comment,ts.block.class.method.declaration.comment.line.double-slash</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -196,23 +196,13 @@
 			</dict>
 		</dict>
 
-		<dict>
-			<key>name</key>
-			<string>Punctuation</string>
-			<key>scope</key>
-			<string>punctuation.definition.string, punctuation.terminator.rule, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array, punctuation.separator.key-value, support.constant.mathematical-symbols.scss, support.constant.mathematical-symbols.css, punctuation.section.function,meta.tag.block.any.html.punctuation.definition.begin.string.quoted.double,meta.tag.block.any.html.punctuation.definition.end.string.quoted.double,meta.tag.any.html.punctuation.definition.begin.string.quoted.double.inline,meta.tag.any.html.punctuation.definition.end.string.quoted.double.inline,meta.tag.any.html.punctuation.definition.begin.string.quoted double,meta.tag.any.html.punctuation.definition.end.string.quoted double</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#dedede</string>
-			</dict>
-		</dict>
+
 
 		<dict>
 			<key>name</key>
 			<string>Storage</string>
 			<key>scope</key>
-			<string>storage</string>
+			<string>storage, ts.class.storage.modifier.declaration.method.parameters</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -235,7 +225,7 @@
 			<key>name</key>
 			<string>Strings, Inherited Class</string>
 			<key>scope</key>
-			<string>string, constant.other.symbol, entity.other.inherited-class, constant.character.escape, constant.character.escape.scss, constant.character.escape.css,invalid.illegal.bad-ampersand.html</string>
+			<string>string, constant.other.symbol, entity.other.inherited-class, constant.character.escape, constant.character.escape.scss, constant.character.escape.css,invalid.illegal.bad-ampersand.html,ts.block.string.quoted.single</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -315,6 +305,132 @@
 				<string>#AA95B7</string>
 			</dict>
 		</dict>
+
+		<!-- typescript -->
+		<dict>
+			<key>name</key>
+			<string>variable</string>
+			<key>scope</key>
+			<string>meta.ts.variable.class.declaration.method.parameters.parameter,ts.decorator.objectliteral.object.member.object-literal.key, ts.variable.object.class.field.declaration.property,ts.objectliteral.object.member.object-literal.key.array.literal.var.expr</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#aa95b7</string>
+			</dict>
+		</dict>		
+		<dict>
+			<key>name</key>
+			<string>ts keyword control</string>
+			<key>scope</key>
+			<string>ts.keyword.control.class.export</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#bf7a75</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>ts entity name type</string>
+			<key>scope</key>
+			<string>ts.entity.name.type.class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9CB571</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>ts storage modifier</string>
+			<key>scope</key>
+			<string>ts.class.storage.modifier</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#957690</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>ts decorator</string>
+			<key>scope</key>
+			<string>ts.decorator.entity.name.function, ts.punctuation.decorator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#66c4d9</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>ts return</string>
+			<key>scope</key>
+			<string>ts.support.type.class.declaration.method.return.primitive,ts.type.annotation.support.class.declaration.method.parameters.primitive</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#abdee8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>this</string>
+			<key>scope</key>
+			<string>ts.block.variable.class.declaration.method.language.this</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#969469</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>this</string>
+			<key>scope</key>
+			<string>ts.block.variable.other.object.class.declaration.property.method,ts.block.variable.other.object.class.declaration.method,ts.block.variable.other.object.array.literal.class.declaration.method.var.expr,ts.block.variable.class.declaration.method.parameter.arrow,ts.block.variable.other.class.declaration.property.method</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ba9e6d</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>this</string>
+			<key>scope</key>
+			<string>ts.block.class.declaration.method.constant.numeric.decimal</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d0c29d</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>return</string>
+			<key>scope</key>
+			<string>ts.entity.name.class.type.method.declaration.parameters.return,ts.punctuation.definition.begin.class.type.method.declaration.parameters.return.typeparameters,ts.punctuation.definition.end.class.type.method.declaration.parameters.return.typeparameters,ts.block.entity.name.class.type.method.declaration.parameters.new.expr,ts.block.punctuation.definition.begin.class.type.method.declaration.parameters.typeparameters.new.expr,ts.block.punctuation.definition.end.class.type.method.declaration.parameters.typeparameters.new.expr</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b57b91</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>control flow</string>
+			<key>scope</key>
+			<string>ts.keyword.control.block.class.method.declaration.flow</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#a0b3c1</string>
+			</dict>
+		</dict>
+
+
+	
 
 		<!-- JSON -->
 		<dict>
@@ -710,6 +826,8 @@
 			</dict>
 		</dict>
 
+
+
 		<!-- markdown -->
 		<dict>
 			<key>name</key>
@@ -820,6 +938,19 @@
 				<string>#c0c5ce</string>
 			</dict>
 		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Punctuation</string>
+			<key>scope</key>
+			<string>punctuation.definition.string, punctuation.terminator.rule, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array, punctuation.separator.key-value, support.constant.mathematical-symbols.scss, support.constant.mathematical-symbols.css, punctuation.section.function,meta.tag.block.any.html.punctuation.definition.begin.string.quoted.double,meta.tag.block.any.html.punctuation.definition.end.string.quoted.double,meta.tag.any.html.punctuation.definition.begin.string.quoted.double.inline,meta.tag.any.html.punctuation.definition.end.string.quoted.double.inline,meta.tag.any.html.punctuation.definition.begin.string.quoted double,meta.tag.any.html.punctuation.definition.end.string.quoted double,ts.block.punctuation,ts.block.brace.array.literal.square,ts.brace.type.square,ts.brace.array.literal.square,ts.punctuation.terminator,ts.punctuation.decorator.objectliteral.object.member.accessor,ts.punctuation.separator.comma.decorator.objectliteral,ts.block.brace.round</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dedede</string>
+			</dict>
+		</dict>
+
 		
 
 </array>

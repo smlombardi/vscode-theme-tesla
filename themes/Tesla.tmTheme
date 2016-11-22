@@ -502,7 +502,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ae5555</string>
+				<string>#CD6564</string>
 			</dict>
 		</dict>
 
@@ -510,18 +510,40 @@
 			<key>name</key>
 			<string>CSS @media</string>
 			<key>scope</key>
-			<string>meta.at-rule.media.scss, meta.property-list.scss meta.at-rule.media.scss</string>
+			<string>meta.at-rule.media.scss, meta.property-list.scss meta.at-rule.media.scss,scss.meta.at-rule.keyword.control.media</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ae5555</string>
+				<string>#CD9D4B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS @import</string>
+			<key>scope</key>
+			<string>meta.scss.keyword.at-rule.import</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CD9D4B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS @import string</string>
+			<key>scope</key>
+			<string>scss.meta.at-rule.import.string.quoted.single</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d0c29d</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>SCSS Pseudo</string>
 			<key>scope</key>
-			<string>entity.property-list.other.attribute-name.pseudo-element.css,entity.other.attribute-name.property-list.css.pseudo-class</string>
+			<string>entity.property-list.other.attribute-name.pseudo-element.css,entity.other.attribute-name.property-list.css.pseudo-class,entity.other.attribute-name.css.pseudo-class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

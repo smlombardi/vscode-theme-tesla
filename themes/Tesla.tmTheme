@@ -547,20 +547,10 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#a4b3ca</string>
+				<string>#A0A5AC</string>
 			</dict>
 		</dict>
-        <dict>
-            <key>name</key>
-            <string>CSS Numbers</string>
-            <key>scope</key>
-            <string>meta.at-rule.constant.numeric.media, meta.property-list.property-value.constant.numeric</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#d0c29d</string>
-            </dict>
-        </dict>
+
         <dict>
             <key>name</key>
             <string>CSS colors</string>
@@ -572,17 +562,7 @@
                 <string>#a4b3ca</string>
             </dict>
         </dict>
-		<dict>
-			<key>name</key>
-			<string>CSS units</string>
-			<key>scope</key>
-			<string>meta.keyword.other.property-list.property-value.unit, meta.at-rule.keyword.other.unit.media</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#627FAC</string>
-			</dict>
-		</dict>
+
 
 		<dict>
 			<key>name</key>
@@ -600,11 +580,11 @@
 			<key>name</key>
 			<string>Sass Placeholder</string>
 			<key>scope</key>
-			<string>source.scss entity.other.attribute-name.placeholder.scss, source.scss entity.other.attribute-name.placeholder.scss  punctuation.definition.entity.scss, source.sass entity.other.attribute-name.placeholder.sass, source.sass entity.other.attribute-name.placeholder.sass  punctuation.definition.entity.sass </string>
+			<string>source.scss entity.other.attribute-name.placeholder.scss, source.scss entity.other.attribute-name.placeholder.scss  punctuation.definition.entity.scss, source.sass entity.other.attribute-name.placeholder.sass, source.sass entity.other.attribute-name.placeholder.sass  punctuation.definition.entity.sass,entity.other.attribute-name.placeholder.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#8F9D6A</string>
+				<string>#95C1CA</string>
 			</dict>
 		</dict>
 
@@ -648,7 +628,7 @@
             <key>name</key>
             <string>CSS @media</string>
             <key>scope</key>
-            <string>meta.at-rule.media.scss, meta.property-list.scss meta.at-rule.media.scss,scss.meta.at-rule.keyword.control.media</string>
+            <string>meta.at-rule.keyword.control.property-list.media</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -666,6 +646,28 @@
 				<string>#9d9b74</string>
 			</dict>
 		</dict>
+        <dict>
+            <key>name</key>
+            <string>CSS Numbers</string>
+            <key>scope</key>
+            <string>meta.at-rule.constant.numeric.media, meta.property-list.property-value.constant.numeric,scss.meta.property-list.at-rule.media</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#d0c29d</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>CSS units</string>
+            <key>scope</key>
+            <string>meta.keyword.other.property-list.property-value.unit, meta.at-rule.keyword.other.unit.media</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#627FAC</string>
+            </dict>
+        </dict>
 		<dict>
 			<key>name</key>
 			<string>CSS @import</string>
@@ -711,17 +713,29 @@
 			</dict>
 		</dict>
 
-		<dict>
-			<key>name</key>
-			<string>SCSS Function</string>
-			<key>scope</key>
-			<string>meta.scss.function.property-list.support.property-value.misc</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#D29469</string>
-			</dict>
-		</dict>
+        <dict>
+            <key>name</key>
+            <string>SCSS Function</string>
+            <key>scope</key>
+            <string>meta.scss.function.property-list.support.property-value.misc,scss.meta.keyword.at-rule.control.function</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D28D69</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>SCSS Mixin</string>
+            <key>scope</key>
+            <string>scss.meta.at-rule.mixin.keyword.control</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D2C369</string>
+            </dict>
+        </dict>
+
 
 
 
@@ -925,17 +939,39 @@
 			</dict>
 		</dict>
 
-		<dict>
+        <dict>
+            <key>name</key>
+            <string>Separator</string>
+            <key>scope</key>
+            <string>meta.separator</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#4f5b66</string>
+                <key>foreground</key>
+                <string>#c0c5ce</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Separator</string>
+            <key>scope</key>
+            <string>scss.meta.at-rule.property-list.constant.numeric.media</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#d0c29d</string>
+            </dict>
+        </dict>
+        <dict>
 			<key>name</key>
 			<string>Separator</string>
 			<key>scope</key>
-			<string>meta.separator</string>
+			<string>scss.meta.at-rule.keyword.property-list.other.unit.media</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#4f5b66</string>
 				<key>foreground</key>
-				<string>#c0c5ce</string>
+				<string>#627FAC</string>
 			</dict>
 		</dict>
 
@@ -943,7 +979,7 @@
 			<key>name</key>
 			<string>Punctuation</string>
 			<key>scope</key>
-			<string>punctuation.definition.string, punctuation.terminator.rule, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array, punctuation.separator.key-value, support.constant.mathematical-symbols.scss, support.constant.mathematical-symbols.css, punctuation.section.function,meta.tag.block.any.html.punctuation.definition.begin.string.quoted.double,meta.tag.block.any.html.punctuation.definition.end.string.quoted.double,meta.tag.any.html.punctuation.definition.begin.string.quoted.double.inline,meta.tag.any.html.punctuation.definition.end.string.quoted.double.inline,meta.tag.any.html.punctuation.definition.begin.string.quoted double,meta.tag.any.html.punctuation.definition.end.string.quoted double,ts.block.punctuation,ts.block.brace.array.literal.square,ts.brace.type.square,ts.brace.array.literal.square,ts.punctuation.terminator,ts.punctuation.decorator.objectliteral.object.member.accessor,ts.punctuation.separator.comma.decorator.objectliteral,ts.block.brace.round</string>
+			<string>punctuation.definition.string, punctuation.terminator.rule, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array, punctuation.separator.key-value, support.constant.mathematical-symbols.scss, support.constant.mathematical-symbols.css, punctuation.section.function,meta.tag.block.any.html.punctuation.definition.begin.string.quoted.double,meta.tag.block.any.html.punctuation.definition.end.string.quoted.double,meta.tag.any.html.punctuation.definition.begin.string.quoted.double.inline,meta.tag.any.html.punctuation.definition.end.string.quoted.double.inline,meta.tag.any.html.punctuation.definition.begin.string.quoted double,meta.tag.any.html.punctuation.definition.end.string.quoted double,ts.block.punctuation,ts.block.brace.array.literal.square,ts.brace.type.square,ts.brace.array.literal.square,ts.punctuation.terminator,ts.punctuation.decorator.objectliteral.object.member.accessor,ts.punctuation.separator.comma.decorator.objectliteral,ts.block.brace.round,scss.meta.at-rule.property-list.media,scss.meta.property-list.property-value.keyword.css.operator</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

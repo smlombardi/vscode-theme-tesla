@@ -23,5 +23,9 @@ Update 5.0:  Added Typescript support
 ##SCSS
 ![](https://raw.githubusercontent.com/smlombardi/vscode-theme-tesla/master/images/scss.png)
 
+##PHPP
+![](https://raw.githubusercontent.com/smlombardi/vscode-theme-tesla/master/images/php.png)
+
+
 
 

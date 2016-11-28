@@ -107,7 +107,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#c7760b</string>
+				<string>#72c3e0</string>
 			</dict>
 		</dict>
 
@@ -251,7 +251,7 @@
 			<key>name</key>
 			<string>Variables</string>
 			<key>scope</key>
-			<string>variable</string>
+			<string>variable,embedded.block.php.punctuation.source.definition.other.variable</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -273,7 +273,7 @@
 		</dict>		
 		<dict>
 			<key>name</key>
-			<string>_this</string>
+			<string>_this</svariabletring>
 			<key>scope</key>
 			<string>meta.js.function.block.variable.other.var.expr.var-single-variable.readwrite</string>
 			<key>settings</key>
@@ -479,7 +479,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#c89e6e</string>
+				<string>#70a1cc</string>
 			</dict>
 		</dict>
 		<dict>
@@ -490,7 +490,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9D9A61</string>
+				<string>#cbb8fc</string>
 			</dict>
 		</dict>
 		<dict>
@@ -979,7 +979,7 @@
 			<key>name</key>
 			<string>Punctuation</string>
 			<key>scope</key>
-			<string>punctuation.definition.string, punctuation.terminator.rule, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array, punctuation.separator.key-value, support.constant.mathematical-symbols.scss, support.constant.mathematical-symbols.css, punctuation.section.function,meta.tag.block.any.html.punctuation.definition.begin.string.quoted.double,meta.tag.block.any.html.punctuation.definition.end.string.quoted.double,meta.tag.any.html.punctuation.definition.begin.string.quoted.double.inline,meta.tag.any.html.punctuation.definition.end.string.quoted.double.inline,meta.tag.any.html.punctuation.definition.begin.string.quoted double,meta.tag.any.html.punctuation.definition.end.string.quoted double,ts.block.punctuation,ts.block.brace.array.literal.square,ts.brace.type.square,ts.brace.array.literal.square,ts.punctuation.terminator,ts.punctuation.decorator.objectliteral.object.member.accessor,ts.punctuation.separator.comma.decorator.objectliteral,ts.block.brace.round,scss.meta.at-rule.property-list.media,scss.meta.property-list.property-value.keyword.css.operator</string>
+			<string>punctuation.definition.string, punctuation.terminator.rule, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array, punctuation.separator.key-value, support.constant.mathematical-symbols.scss, support.constant.mathematical-symbols.css, punctuation.section.function,meta.tag.block.any.html.punctuation.definition.begin.string.quoted.double,meta.tag.block.any.html.punctuation.definition.end.string.quoted.double,meta.tag.any.html.punctuation.definition.begin.string.quoted.double.inline,meta.tag.any.html.punctuation.definition.end.string.quoted.double.inline,meta.tag.any.html.punctuation.definition.begin.string.quoted double,meta.tag.any.html.punctuation.definition.end.string.quoted double,ts.block.punctuation,ts.block.brace.array.literal.square,ts.brace.type.square,ts.brace.array.literal.square,ts.punctuation.terminator,ts.punctuation.decorator.objectliteral.object.member.accessor,ts.punctuation.separator.comma.decorator.objectliteral,ts.block.brace.round,scss.meta.at-rule.property-list.media</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

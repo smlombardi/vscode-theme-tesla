@@ -650,7 +650,7 @@
             <key>name</key>
             <string>CSS Numbers</string>
             <key>scope</key>
-            <string>meta.at-rule.constant.numeric.media, meta.property-list.property-value.constant.numeric,scss.meta.property-list.at-rule.media</string>
+            <string>meta.at-rule.constant.numeric.media, meta.property-list.property-value.constant.numeric,scss.meta.property-list.at-rule.media,property-list.scss.constant.numeric.variable.set</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -661,7 +661,7 @@
             <key>name</key>
             <string>CSS units</string>
             <key>scope</key>
-            <string>meta.keyword.other.property-list.property-value.unit, meta.at-rule.keyword.other.unit.media</string>
+            <string>meta.keyword.other.property-list.property-value.unit, meta.at-rule.keyword.other.unit.media,property-list.scss.set.variable.keyword.unit</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>

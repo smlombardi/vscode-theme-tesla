@@ -519,13 +519,24 @@
 		<!-- css -->
 		<dict>
 			<key>name</key>
-			<string>Selector</string>
+			<string>CSS Class Selector</string>
 			<key>scope</key>
 			<string>meta.selector, entity.other.attribute-name.class.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#b48ead</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Tag Selector</string>
+			<key>scope</key>
+			<string>entity.meta.property-list.scss.name.tag,entity.meta.property-list.css.name.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c89c70</string>
 			</dict>
 		</dict>
 		<dict>

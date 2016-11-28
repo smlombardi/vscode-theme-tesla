@@ -599,17 +599,6 @@
 			</dict>
 		</dict>
 
-		<dict>
-			<key>name</key>
-			<string>Sass Variable</string>
-			<key>scope</key>
-			<string>source.scss meta.set.variable variable, variable.scss</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#c07a7a</string>
-			</dict>
-		</dict>
 
 		<dict>
 			<key>name</key>
@@ -746,6 +735,19 @@
                 <string>#D2C369</string>
             </dict>
         </dict>
+
+        <dict>
+			<key>name</key>
+			<string>Sass Variable</string>
+			<key>scope</key>
+			<string>source.scss meta.set.variable variable, variable.scss,meta.property-list.scss.variable.at-rule.media</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c07a7a</string>
+			</dict>
+		</dict>
+
 
 
 

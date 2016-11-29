@@ -486,7 +486,7 @@
 			<key>name</key>
 			<string>Attributes</string>
 			<key>scope</key>
-			<string>meta.tag.any.html.entity.other.attribute-name</string>
+			<string>meta.tag.any.html.entity.other.attribute-name, meta.tag.html.entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

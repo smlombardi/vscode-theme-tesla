@@ -437,7 +437,7 @@
 			<key>name</key>
 			<string>Property Name</string>
 			<key>scope</key>
-			<string>meta.structure.array.json.dictionary.support.type.property-name, meta.block.js.string.quoted.double.array.literal.objectliteral.object.member.object-literal.key</string>
+			<string>meta.structure.array.json.dictionary.support.type.property-name, meta.block.js.string.quoted.double.array.literal.objectliteral.object.member.object-literal.key, meta.structure.dictionary.json.support.type.property-name.value, meta.structure.dictionary.json.support.type.property-name</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -459,7 +459,7 @@
 			<key>name</key>
 			<string>Property Constant</string>
 			<key>scope</key>
-			<string>meta.structure.array.json.dictionary.value.constant.language</string>
+			<string>meta.structure.array.json.dictionary.value.constant.language, meta.structure.dictionary.json.value.constant.language</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

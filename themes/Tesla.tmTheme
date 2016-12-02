@@ -57,11 +57,11 @@
 			<key>name</key>
 			<string>Boolean</string>
 			<key>scope</key>
-			<string>none</string>
+			<string>meta.js.function.block.object.language.objectliteral.member.constant.boolean</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#d08770</string>
+				<string>#AB6767</string>
 			</dict>
 		</dict>
 		<dict>
@@ -107,7 +107,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#72c3e0</string>
+				<string>#AB6767</string>
 			</dict>
 		</dict>
 

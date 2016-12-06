@@ -888,7 +888,7 @@
 				<key>fontStyle</key>
 				<string />
 				<key>foreground</key>
-				<string>#8fa1b3</string>
+				<string>#BF93B5</string>
 			</dict>
 		</dict>
 
@@ -913,9 +913,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string></string>
 				<key>foreground</key>
-				<string>#b48ead</string>
+				<string>#B4B378</string>
 			</dict>
 		</dict>
 		<dict>
@@ -944,11 +944,11 @@
 			<key>name</key>
 			<string>Link Url</string>
 			<key>scope</key>
-			<string>meta.link</string>
+			<string>meta.link, meta.paragraph.inline.link.underline.detected-link</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#d08770</string>
+				<string>#B2885F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -959,7 +959,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#bf616a</string>
+				<string>#ababab</string>
 			</dict>
 		</dict>
 		<dict>

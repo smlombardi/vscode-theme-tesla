@@ -79,7 +79,7 @@
 			<key>name</key>
 			<string>Comments</string>
 			<key>scope</key>
-			<string>comment, punctuation.definition.comment,ts.block.class.method.declaration.comment.line.double-slash</string>
+			<string>comment, punctuation.definition.comment,ts.block.class.method.declaration.comment.line.double-slash, ts.punctuation.definition.decorator.objectliteral.object.member.array.literal.comment.line.double-slash</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -486,7 +486,7 @@
 			<key>name</key>
 			<string>Attributes</string>
 			<key>scope</key>
-			<string>meta.tag.any.html.entity.other.attribute-name, meta.tag.html.entity.other.attribute-name, meta.tag.xml.entity.localname.other.attribute-name, meta.tag.xml.entity.other.attribute-name.namespace</string>
+			<string>meta.tag.any.html.entity.other.attribute-name, meta.tag.html.entity.other.attribute-name, meta.tag.xml.entity.localname.other.attribute-name, meta.tag.xml.entity.other.attribute-name.namespace, html.entity.other.attribute-name.source.js.embedded</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -497,7 +497,7 @@
 			<key>name</key>
 			<string>Attribute Values</string>
 			<key>scope</key>
-			<string>meta.tag.any.html.string.quoted.double</string>
+			<string>meta.tag.any.html.string.quoted.double, html.string.quoted.double.source.js.embedded.detected-link, meta.tag.html.other.string.quoted.double</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1021,6 +1021,17 @@
 				<string>#dedede</string>
 			</dict>
 		</dict>
+        <dict>
+            <key>name</key>
+            <string>Logical Operator</string>
+            <key>scope</key>
+            <string>meta.js.function.block.object.keyword.operator.objectliteral.member.logical</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#DD5B5B</string>
+            </dict>
+        </dict>
 
 		
 
